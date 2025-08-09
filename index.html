@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Endonezya Mutfağı</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: NiceRestaurant
+  * Template URL: https://bootstrapmade.com/nice-restaurant-bootstrap-template/
+  * Updated: Jun 06 2025 with Bootstrap v5.3.6
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.webp" alt=""> -->
+        <i class="bi bi-fork-knife"></i>
+        <h1 class="sitename">Endonezya Mutfağı</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section">
+      <div class="container-fluid hero-container" data-aos="fade-up">
+        <div class="row g-0 align-items-center">
+          <div class="col-lg-6 content-col">
+            <div class="content-wrapper">
+              <div class="status-badge">Reservations Open</div>
+              <h2>Endonezya Yemekleri</h2>
+              <p>Discover a journey of flavors at our foods with 100% original from Indonesia </p>
+
+              <div class="btn-group">
+                <a href="#locationt" class="btn btn-book">Book for Food</a>
+                <a href="#menu" class="btn btn-menu">Explore Our Menu</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 swiper-col">
+            <div class="swiper hero-swiper init-swiper" data-aos="zoom-out" data-aos-delay="100">
+              <script type="application/json" class="swiper-config">
+                {
+                  "loop": true,
+                  "speed": 800,
+                  "autoplay": {
+                    "delay": 5000
+                  },
+                  "effect": "fade",
+                  "slidesPerView": 1,
+                  "navigation": {
+                    "nextEl": ".swiper-button-next",
+                    "prevEl": ".swiper-button-prev"
+                  }
+                }
+              </script>
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="img-container">
+                    <img src="assets/img/restaurant/misc-square-1.jpg" alt="Restaurant Ambience">
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="img-container">
+                    <img src="assets/img/restaurant/misc-square-2.jpg" alt="Signature Dish">
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="img-container">
+                    <img src="assets/img/restaurant/misc-square-3.jpg" alt="Expert Chefs">
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Menu</h2>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up">
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+          <div class="menu-filters isotope-filters mb-5">
+            <ul>
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-starters">Starters</li>
+              <li data-filter=".filter-main">Main Courses</li>
+              <li data-filter=".filter-dessert">Desserts</li>
+              <li data-filter=".filter-drinks">Drinks</li>
+            </ul>
+          </div>
+
+          <div class="menu-container isotope-container row gy-4">
+
+            <!-- Regular Menu Items -->
+            <div class="col-lg-6 isotope-item filter-main">
+              <div class="menu-item d-flex align-items-center gap-4">
+                <img src="assets/img/restaurant/main-1.jpg" alt="Main Courses" class="menu-img img-fluid rounded-3">
+                <div class="menu-content">
+                  <h5>Mie Goreng Special <span class="menu-tag">1 Portion</span></h5>
+                  <p>Noodles, Eggs, Vegetables, sausage</p>
+                  <div class="price">100 ₺</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 isotope-item filter-main">
+              <div class="d-flex menu-item align-items-center gap-4">
+                <img src="assets/img/restaurant/main-2.jpg" alt="Main Courses" class="menu-img img-fluid rounded-3">
+                <div class="menu-content">
+                  <h5>Bakso (Meatballs) <span class="menu-tag">1 Portion</span></h5>
+                  <p>Meat, Vegetables</p>
+                  <div class="price">120 ₺</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 isotope-item filter-main">
+              <div class="d-flex menu-item align-items-center gap-4">
+                <img src="assets/img/restaurant/main-3.jpg" alt="Main Course" class="menu-img img-fluid rounded-3">
+                <div class="menu-content">
+                  <h5>Chicken Katsu <span class="menu-tag">1 Portion</span></h5>
+                  <p>Chicken </p>
+                  <div class="price">120 ₺</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 isotope-item filter-main">
+              <div class="d-flex menu-item align-items-center gap-4">
+                <img src="assets/img/restaurant/main-4.jpg" alt="Main Course" class="menu-img img-fluid rounded-3">
+                <div class="menu-content">
+                  <h5>Mie Ayam <span class="menu-tag">1 Portion</span></h5>
+                  <p>Noodles, Chicken</p>
+                  <div class="price">120 ₺</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 isotope-item filter-main">
+              <div class="d-flex menu-item align-items-center gap-4">
+                <img src="assets/img/restaurant/main-5.jpg" alt="Dessert" class="menu-img img-fluid rounded-3">
+                <div class="menu-content">
+                  <h5>Chicken Sauge <span class="menu-tag">1 Portion</span></h5>
+                  <p>Chicken</p>
+                  <div class="price">120 ₺</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 isotope-item filter-main">
+              <div class="d-flex menu-item align-items-center gap-4">
+                <img src="assets/img/restaurant/main-6.jpg" alt="Dessert" class="menu-img img-fluid rounded-3">
+                <div class="menu-content">
+                  <h5>Spinach Soup <span class="menu-tag">1 Portion</span></h5>
+                  <p>Soup</p>
+                  <div class="price">120 ₺</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 isotope-item filter-main">
+              <div class="d-flex menu-item align-items-center gap-4">
+                <img src="assets/img/restaurant/main-7.jpg" alt="Drink" class="menu-img img-fluid rounded-3">
+                <div class="menu-content">
+                  <h5>Eggs with Sauge <span class="menu-tag">1 Portion </span></h5>
+                  <p>Eggs</p>
+                  <div class="price">120 ₺</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 isotope-item filter-dessert">
+              <div class="d-flex menu-item align-items-center gap-4">
+                <img src="assets/img/restaurant/dessert-1.jpg" alt="Drink" class="menu-img img-fluid rounded-3">
+                <div class="menu-content">
+                  <h5>Donuts <span class="menu-tag">6 Donuts </span></h5>
+                  <p>Dounts</p>
+                  <div class="price">120 ₺</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 isotope-item filter-starters">
+              <div class="d-flex menu-item align-items-center gap-4">
+                <img src="assets/img/restaurant/starter-2.jpg" alt="Dessert" class="menu-img img-fluid rounded-3">
+                <div class="menu-content">
+                  <h5>Ladu <span class="menu-tag">1 pcs </span></h5>
+                  <p>Flour </p>
+                  <div class="price">120 ₺</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 isotope-item filter-starters">
+              <div class="d-flex menu-item align-items-center gap-4">
+                <img src="assets/img/restaurant/starter-1.jpg" alt="Drink" class="menu-img img-fluid rounded-3">
+                <div class="menu-content">
+                  <h5>Risoles <span class="menu-tag">6 pcs</span></h5>
+                  <p>Vegetables, Eggs, </p>
+                  <div class="price">120 ₺</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+    </section><!-- /Menu Section -->
+
+    <!-- Location Section -->
+    <section id="location" class="location section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Location</h2>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row g-4">
+          <div class="col-lg-6" data-aos="fade-right" data-aos-delay="200">
+            <div class="map-container">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12782.197521817361!2d34.541761199999996!3d36.7813763!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15278ac6860ebec5%3A0x14adfe3e8d7d6f7e!2sPazar%20Yeri!5e0!3m2!1sid!2str!4v1754671624463!5m2!1sid!2str" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-left" data-aos-delay="200">
+            <div class="info-container">
+              <div class="section-header">
+                <h2>Find Us</h2>
+                <p>Visit Us Today</p>
+              </div>
+
+              <div class="info-card" data-aos="fade-up" data-aos-delay="300">
+                <div class="info-icon">
+                  <i class="bi bi-geo-alt"></i>
+                </div>
+                <div class="info-content">
+                  <h3>Our Location</h3>
+                  <p>Çiftlikköy, 33110 Yenişehir/Mersin</p>
+                </div>
+              </div>
+
+              <div class="info-card" data-aos="fade-up" data-aos-delay="400">
+                <div class="info-icon">
+                  <i class="bi bi-telephone"></i>
+                </div>
+                <div class="info-content">
+                  <h3>Reservations</h3>
+                  <p>+62 858-1247-6281 (Sherly)</p>
+                  <p class="small-text">We recommend making reservations at least 24-48 hours in advance</p>
+                </div>
+              </div>
+
+              <div class="info-card" data-aos="fade-up" data-aos-delay="500">
+                <div class="info-icon">
+                  <i class="bi bi-clock"></i>
+                </div>
+                <div class="info-content">
+                  <h3>Hours</h3>
+                  <div class="hours-grid">
+                    <div class="day">Monday - Thursday</div>
+                    <div class="time">11:00 AM - 10:00 PM</div>
+
+                    <div class="day">Friday - Saturday</div>
+                    <div class="time">11:00 AM - 11:30 PM</div>
+
+                    <div class="day">Sunday</div>
+                    <div class="time">10:00 AM - 9:00 PM</div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+  </main>
+
+  <footer id="footer" class="footer">
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">Endonezya Mutfağı</strong> <span>All Rights Reserved</span></p>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+        Designed by <a href="https://bootstrapmade.com/">Endonezya Mutfağı</a>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
